@@ -1,0 +1,9 @@
+<%= form_tag('visitors/contact') do %>
+    <%= label_tag :name %> <br>
+    <%= text_field_tag :name %> <br>
+    <%= label_tag :email %> <br>
+    <%= text_field_tag :email %> <br>
+    <%= label_tag :message %> <br>
+    <%= text_area_tag :message %> <br>
+    <%= submit_tag 'email' %>
+<% end %>
